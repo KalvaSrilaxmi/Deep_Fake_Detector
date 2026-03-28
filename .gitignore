@@ -1,0 +1,11 @@
+venv/
+.env
+__pycache__/
+*.pyc
+.streamlit/
+data/
+outputs/
+*.h5
+# Only exclude the model if it's too large, but for now I'll keep it as it's needed for the app (~1MB).
+# Actually, it's better to keep it for now.
+# deepfake_cae_model.h5
